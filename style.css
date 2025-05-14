@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.tagline {
+  font-size: 0.9rem;
+  color: #888;
+  display: block;
+}
+
+.face-instruction p {
+  text-align: center;
+}
+.face-box {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.face-box img {
+  width: 150px;
+  height: auto;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+}
+.status.connected {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+#startBtn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.bpm-display {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bpm-value h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #222;
+}
+
+footer nav {
+  margin-top: 20px;
+  text-align: center;
+}
+footer nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #555;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IRhythm – Contactless Pulse Monitor</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>IRhythm <span class="tagline">Real-time Contactless Heart Monitoring</span></h1>
+    </header>
+
+    <section class="face-instruction">
+      <p>Align your face within the frame to begin monitoring.</p>
+      <div class="face-box">
+        <img src="assets/face-placeholder.png" alt="Face alignment placeholder" />
+      </div>
+      <p class="status connected">Kinect Connected ✅</p>
+      <button id="startBtn">Start Monitoring</button>
+    </section>
+
+    <section class="bpm-display">
+      <div class="bpm-graph">
+        <canvas id="pulseChart"></canvas>
+      </div>
+      <div class="bpm-value">
+        <h2><span id="bpmValue">75</span> BPM</h2>
+        <p>Pulse Graph (Chart.js)</p>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <a href="#">About</a>
+        <a href="#">How It Works</a>
+        <a href="#">Contact</a>
+      </nav>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
